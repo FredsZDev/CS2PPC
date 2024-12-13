@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+body{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgb(137, 142, 148), white);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+
+    
+}
+
+header{
+    nav#topPage{
+        background-color: purple;
+        background-size: cover;
+        padding: 10px;
+        
+        
+
+    }
+
+
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 35px;
+    text-shadow: 2px 2px 2px black;
+    
+}
+
+main{
+
+
+    p#initiate{
+        text-align: center; 
+        font-size: 50px; 
+        position: middle;
+        line-height: 500px;
+        
+        button#initiateButton{
+
+            height: 100px;
+            width: 250px;
+            background-color: #1ca32e; /* Green */
+            border: none;
+            border-radius: 15px;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 50px;
+            margin: 4px 2px;
+            cursor: pointer;
+
+        }
+
+        
+        button#initiateButton:hover{
+            background-color: #29f144; /* Green */
+            border: none;
+            border-radius: 15px;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 50px;
+            margin: 4px 2px;
+            cursor: pointer;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 2s;
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    
+        }
+
+        button#initiateButton:onclick{
+            
+
+
+        }
+        
+    }
+    
+    video#backgroundVideo{
+        border-radius: 10px;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        background: rgb(241, 239, 239);
+        color: #f1f1f1;
+        width: 100%;
+        z-index: -1000;
+        filter: blur(5px);
+
+
+    }
+    
+
+    }
+
+
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+    
+
+
+}
+
+a#sobre{
+    color: rgb(255, 0, 0);
+
+
+    }
+
+
